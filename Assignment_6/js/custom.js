@@ -4,7 +4,7 @@ let score =JSON.parse(localStorage.getItem("score")) || {
     ties:0
 };
 
-updateScoreElement();
+// updateScoreElement();
 
 function playGame(playerMove){
     const computerMove= pickComputerMove();

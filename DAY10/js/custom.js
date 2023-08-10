@@ -72,7 +72,7 @@ const todoList = [
     "wash dishes",
     "watch youtube",
 ];
-for(let i = 0; i <= todoList.length-1; i++){
+for(let i = 0; i <= todoList.length - 1; i++){
     const value = todoList[i];
     console.log(value);
 }

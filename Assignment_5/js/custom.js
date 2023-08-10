@@ -4,7 +4,7 @@ function subscribe(){
 
         if (buttonElement.innerHTML==='Subscribe'){
             buttonElement.innerHTML='Subscribed';
-            buttonElement.classList.add("is-subscribed");
+            buttonElement.classList.add("is-subscribed");/*classList gives us control of class attributes*/
         }
         else{
             buttonElement.innerHTML = 'Subscribe';
@@ -16,24 +16,3 @@ function subscribe(){
 /*------------------Start---------------------*/
 /*-------------------Finish------------------*/
 
-/*------------------Start---------------------*/
-/*-------------------Finish------------------*/
-
-
-/*------------------Start---------------------*/
-/*-------------------Finish------------------*/
-
-/*------------------Start---------------------*/
-/*-------------------Finish------------------*/
-
-/*------------------Start---------------------*/
-/*-------------------Finish------------------*/
-
-/*------------------Start---------------------*/
-/*-------------------Finish------------------*/
-
-/*------------------Start---------------------*/
-/*-------------------Finish------------------*/
-
-/*------------------Start---------------------*/
-/*-------------------Finish------------------*/

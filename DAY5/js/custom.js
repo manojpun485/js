@@ -23,7 +23,7 @@ console.log(3>5-5);
 /*---------finish--------*/
 
 /*---------start-----------*/
-console.log(true && true);/*AND operator means boths sides has to be true*/
+console.log(true && true);/*AND operator means both sides has to be true*/
 console.log(true && false);
 console.log(3>2 && 5>3);
 console.log(3<2 && 5<3);
@@ -42,10 +42,10 @@ console.log(!false);
 /*---------finish--------*/
 
 /*---------start-----------*/
-/*falsy values:false, 0, "", Nan, undefined, null.Any value not on the list of falsy values are truthy values. */ 
+/*falsy values:There are only six falsy values:false, 0, "", Nan, undefined, null.Any value not on the list of falsy values are truthy values. */ 
 const cartQuantity=5;
 if (cartQuantity){
-    console.log("The cart has products.");/*Because 5 is greater than 0 which is true*/
+    console.log("The cart has products.");/*Because 5 is greater than 0 which is true.The number 0 and -0 are the only numbers that are false not the number greater than 0 and less than 0.*/
 }
 /*---------finish--------*/
 
@@ -69,7 +69,7 @@ console.log(variable1);/* undefined is only used with let not const.*/
 console.log(true ? "truthy" : "falsy");/* The first value is the condition,if its truthy,the result of this code is a value after question mark.If the first value is falsey,the result of this code is value after the colon.So basically it is shortcut for if-else statement.Question mark as the if branch and colon as else branch.Now the advantage of ternary operator over if-statement is that we can save it in a variable.*/
 /*---------finish--------*/
 
-/*---------start-----------*/
+// /*---------start-----------*/
 const result = 5>8 ? "truthy":"falsy";
 console.log(result);
 
