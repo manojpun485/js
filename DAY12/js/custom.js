@@ -14,14 +14,14 @@ arrowFunction();
 
 /*-------------------START---------------------------*/
 /*The difference is arrow function has some shortcuts than regular function.*/
-const oneParam = param => { /*So we arrow function has only one parameter than these round brackets are optional.We can remove them.*/
+const oneParam = param => { /*So here arrow function has only one parameter then these round brackets are optional.We can remove them.*/
     console.log(param + 1);
 };
 oneParam(3);
 /*-------------------FINISH--------------------------*/
 
 /*-------------------START---------------------------*/
-const oneLine = () => 2+3;/*So we arrow function has only one line of code than we can actually put it on the same as the arrow.And curly brackets are optional.*/
+const oneLine = () => 2+3;/*So here arrow function has only one line of code than we can actually put it on the same as the arrow.And curly brackets are optional.*/
 console.log(oneLine());
 /*-------------------FINISH--------------------------*/
 
